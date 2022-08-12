@@ -1,0 +1,20 @@
+.Task{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+}
+.bt{
+background-color:white;
+border-radius: 45%;
+width:2.5rem;
+height:2.5rem;
+border: 2px solid blue;
+cursor: pointer;
+}
+.bt:hover{
+    border:2px solid red
+}

@@ -1,0 +1,51 @@
+
+
+.Heading{
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+}
+
+.cont{
+
+    width: 50rem;
+    margin: auto;
+    padding:4vmax;
+    box-sizing: border-box;
+}
+.cont >form{
+display: flex;
+flex-direction: column;
+}
+
+
+.inp{
+    padding:1vmax;
+    border:1px solid black;
+    margin:1rem
+}
+.txt{
+    padding:1vmax;
+    border:1px solid black;
+    margin:1rem
+}
+
+
+#bit{
+    background-color: rgb(31, 31, 78);
+    color: aliceblue;
+    cursor:pointer;
+    padding:1vmax;
+    border:1px solid black;
+    margin:1rem;
+}
+#bit:hover{
+   background-color:  rgb(56, 56, 149);
+}
+h2{
+    display: flex;
+    font-weight: bold;
+   
+    justify-content: center;
+}
